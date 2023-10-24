@@ -17,7 +17,7 @@ module Mux4to1(
 
   // Second-level 2:1 muxes
   Mux2to1 Mux4 (.a(y1[0]), .b(y1[1]), .sel(sel[1]), .y(y[0]));
-  Mux2to1 Mux5 (.a(y2[0]), .b(y2[1], .sel(sel[1]), .y(y[1]));
+  Mux2to1 Mux5 (.a(y2[0]), .b(y2[1]), .sel(sel[1]), .y(y[1]));
 
 endmodule
 
